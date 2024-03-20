@@ -9,3 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Bye World"
+  my-third-job:
+    runs-on: self-hosted
+    steps:
+    - run: echo "Bye World"
